@@ -27,3 +27,14 @@
     @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-tr from-[#5651e5] to-[#709dff] text-white
   }
 }
+
+#aboutPhoto {
+  background-image: url('/assests/noir.jpeg');
+  width: 30vw;
+  height: 150vh;
+  object-fit: contain;
+}
+
+#aboutPhoto:hover {
+  background-image: url('/assests/TasneemPhoto.jpeg');
+}
